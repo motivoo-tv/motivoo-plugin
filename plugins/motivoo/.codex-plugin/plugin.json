@@ -1,0 +1,30 @@
+{
+  "name": "motivoo",
+  "version": "1.0.0",
+  "description": "在 Codex 里用 Motivoo 做视觉与声音创作。",
+  "author": {
+    "name": "Motivoo",
+    "url": "https://motivoo.tv"
+  },
+  "homepage": "https://motivoo.tv/agent",
+  "repository": "https://github.com/motivoo-tv/motivoo-plugin.git",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Motivoo",
+    "shortDescription": "Motivoo 生图、生视频、配音与音乐",
+    "longDescription": "用 Motivoo 在 Codex 里完成视觉与声音创作：按文字或参考图生成图片和视频、把静帧变成动态画面、抠图扩图高清化、生成配音、音乐与音效。所有结果都会同步到你的 Motivoo 画布，回到网页即可继续编辑。按次消耗你账户里的 Motis 积分，超过你设置的单次阈值会先征求你的确认，每日总消耗不超过你设置的上限。连接你的 Motivoo 账号即可开始。",
+    "developerName": "Motivoo",
+    "category": "Creativity",
+    "capabilities": ["Read", "Write"],
+    "brandColor": "#EA5514",
+    "websiteURL": "https://motivoo.tv",
+    "logo": "./assets/motivoo-icon.svg",
+    "composerIcon": "./assets/motivoo-icon.svg",
+    "defaultPrompt": [
+      "查看我的 Motivoo 积分余额和今日额度",
+      "用 Motivoo 帮我生成一张产品海报",
+      "把这段剧本做成 3 个镜头的短片：先出关键帧，再转成视频"
+    ]
+  },
+  "mcpServers": "./codex.mcp.json"
+}

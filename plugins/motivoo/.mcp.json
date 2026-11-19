@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "motivoo": {
+      "type": "http",
+      "url": "https://motivoo.tv/mcp"
+    }
+  }
+}

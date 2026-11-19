@@ -1,0 +1,12 @@
+{
+  "name": "motivoo",
+  "version": "1.0.0",
+  "description": "Generate images, videos, speech, music and sound effects with Motivoo; results sync to your Motivoo canvas.",
+  "author": {
+    "name": "Motivoo",
+    "url": "https://motivoo.tv"
+  },
+  "homepage": "https://motivoo.tv/agent",
+  "repository": "https://github.com/motivoo-tv/motivoo-plugin.git",
+  "keywords": ["image", "video", "audio", "generation", "creative", "mcp"]
+}

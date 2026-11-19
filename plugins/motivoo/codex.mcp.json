@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "motivoo": {
+      "type": "http",
+      "url": "https://motivoo.tv/mcp",
+      "tool_timeout_sec": 1200
+    }
+  }
+}

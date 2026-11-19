@@ -1,0 +1,18 @@
+{
+  "name": "motivoo",
+  "owner": {
+    "name": "Motivoo",
+    "url": "https://motivoo.tv"
+  },
+  "metadata": {
+    "description": "Motivoo creative tools for coding agents: image, video, speech, music and sound generation."
+  },
+  "plugins": [
+    {
+      "name": "motivoo",
+      "source": "./plugins/motivoo",
+      "description": "在 Agent 里用 Motivoo 生成图片、视频、配音、音乐与音效，结果同步到 Motivoo 画布。",
+      "category": "creativity"
+    }
+  ]
+}

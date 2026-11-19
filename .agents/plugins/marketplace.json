@@ -1,0 +1,20 @@
+{
+  "name": "motivoo",
+  "interface": {
+    "displayName": "Motivoo"
+  },
+  "plugins": [
+    {
+      "name": "motivoo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/motivoo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
