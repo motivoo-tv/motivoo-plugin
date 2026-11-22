@@ -1,6 +1,6 @@
 ---
 name: motivoo-product-shots
-description: 用产品照片生成电商主图、场景图、海报和社媒素材：抠图、换场景、扩图、高清化。Use when the user wants product photos, e-commerce images, posters or marketing visuals from a product picture with Motivoo.
+description: 用产品照片生成电商主图、场景图、海报和社媒素材：抠图、换场景、扩图。Use when the user wants product photos, e-commerce images, posters or marketing visuals from a product picture with Motivoo.
 ---
 
 # Motivoo 产品图流程
@@ -21,7 +21,7 @@ description: 用产品照片生成电商主图、场景图、海报和社媒素�
 ## 3. 出图
 
 - 先 `count=2` 试 1–2 个方向给用户挑，确认方向后再按需要的数量批量生成。
-- 需要更大画幅：`edit_image(tool=outpaint)` 扩边；需要更清晰：`edit_image(tool=upscale)`。
+- 需要更大画幅：`edit_image(tool=outpaint)` 扩边。
 - 局部问题（多余物体、瑕疵）：准备白色标记区域的蒙版图上传后用 `erase` 或 `inpaint`。
 
 ## 4. 交付

@@ -12,7 +12,7 @@
   "interface": {
     "displayName": "Motivoo",
     "shortDescription": "Motivoo 生图、生视频、配音与音乐",
-    "longDescription": "用 Motivoo 在 Codex 里完成视觉与声音创作：按文字或参考图生成图片和视频、把静帧变成动态画面、抠图扩图高清化、生成配音、音乐与音效。所有结果都会同步到你的 Motivoo 画布，回到网页即可继续编辑。按次消耗你账户里的 Motis 积分，超过你设置的单次阈值会先征求你的确认，每日总消耗不超过你设置的上限。连接你的 Motivoo 账号即可开始。",
+    "longDescription": "用 Motivoo 在 Codex 里完成视觉与声音创作：按文字或参考图生成图片和视频、把静帧变成动态画面、抠图扩图、生成配音、音乐与音效。所有结果都会同步到你的 Motivoo 画布，回到网页即可继续编辑。按次消耗你账户里的 Motis 积分，超过你设置的单次阈值会先征求你的确认，每日总消耗不超过你设置的上限。连接你的 Motivoo 账号即可开始。",
     "developerName": "Motivoo",
     "category": "Creativity",
     "capabilities": ["Read", "Write"],

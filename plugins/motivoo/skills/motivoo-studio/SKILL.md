@@ -1,6 +1,6 @@
 ---
 name: motivoo-studio
-description: 用 Motivoo 生成图片、视频、配音、音乐、音效或图像编辑（抠图/扩图/高清/消除/重绘）时使用。Use for any Motivoo image/video/audio generation request, checking Motivoo credits, or placing results on a Motivoo canvas.
+description: 用 Motivoo 生成图片、视频、配音、音乐、音效或图像编辑（抠图/扩图/消除/重绘）时使用。Use for any Motivoo image/video/audio generation request, checking Motivoo credits, or placing results on a Motivoo canvas.
 ---
 
 # Motivoo Studio
