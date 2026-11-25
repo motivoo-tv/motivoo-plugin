@@ -12,6 +12,7 @@ description: 用 Motivoo 生成配音旁白、背景音乐、歌曲和音效。U
 1. `list_voices(locale)` 列出音色，按语言、性别、年龄给用户推荐 2–3 个（可附 `preview_url` 试听）。
 2. 长文本按段落拆分，每段一次 `text_to_speech`，方便单段重录。
 3. 语速用 `speed`（0.5–2.0），不要改写用户的原文。
+4. 带时长区间的配音模型（如 SeedAudio，`list_models` 里 `audio_alt_modes` 含 speech）没有音色 / 语速：`text` 写台词和声音描述，传 `duration_sec`。
 
 ## 音乐
 
@@ -22,7 +23,7 @@ description: 用 Motivoo 生成配音旁白、背景音乐、歌曲和音效。U
 ## 音效
 
 - `generate_sfx`：描述声音本身（材质、距离、环境），需要循环时 `loop=true`。
-- 按模型的时长区间传 `duration_sec`。
+- 按模型的时长区间传 `duration_sec`，可带一位小数（如点击声 0.3）；按秒向上取整计费。
 
 ## 交付
 
